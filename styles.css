@@ -1,24 +1,94 @@
 body {
     box-sizing: border-box;
-    padding: 1rem;
-    margin: 4rem 12rem 4rem 12rem;
     font-family: sans-serif;
-    line-height: 200%;
+    color: #404040;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding-bottom: 30rem;
+    position: relative;
+} 
+main {
+    flex: 70%;
+    height: 100%;
+    margin: 4rem 1rem 4rem 18rem;
+    opacity: 0;
 }
-    
+
+
 aside {
-    display: block;
-    float: right;
-    width: 25%;
+    flex: 30%;
+    margin: 4rem 18rem 4rem 1rem;
+
+
 }
-h3 {
+aside h3 {
     font-size: 1.5rem;
     text-transform: uppercase;
-    
+    margin-bottom: 1rem;
 }
-img {
+aside img {
     width: 100%;
 }
-a {
+aside a {
+    display: inline-block;
     color: lightseagreen;
+    margin-bottom: 2rem;
 }
+aside p {
+    line-height: 200%;
+}
+
+
+footer { 
+    display: block;
+    position: absolute;    
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    background-color: #404040;
+    text-align: center;
+    height: 20rem;
+    padding: 5rem 0;
+} 
+footer img {
+    width: 25%;    
+}
+footer ul {
+    list-style-type: none;
+    padding-bottom: 2rem;
+}
+footer li {
+    display: inline;
+}
+footer li:after {
+    content: "/";
+    padding: 1rem;
+}
+footer li:last-of-type:after {
+    content: none;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.main-text {
+    display: inline-block;
+    line-height: 200%;
+    width: 30%;
+    padding: 1rem 0;
+}
+.location {
+    display: inline;
+    padding: 1rem 0;
+}
+.location:after {
+    content: "|";
+    padding: 0 1rem;
+}
+.location:last-of-type:after {
+    content: none;
+}
+
