@@ -1,9 +1,24 @@
 body {
-    margin: 4rem 6rem 4rem 6rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: 4rem 12rem 4rem 12rem;
+    font-family: sans-serif;
+    line-height: 200%;
 }
     
 aside {
     display: block;
     float: right;
-    width: 20%;
+    width: 25%;
+}
+h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    
+}
+img {
+    width: 100%;
+}
+a {
+    color: lightseagreen;
 }
