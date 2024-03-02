@@ -42,7 +42,7 @@ body {
     text-align: left;
     top: 316px;
     width: 100%;
-    background: grey;
+    background: lightgrey;
     text-indent: 10rem;
 
 }
@@ -57,13 +57,15 @@ body {
 .nav-bar-main a {
     text-decoration: none;
     font-size: 1.2rem;
-    color: white;
+    color: black;
+    font-weight: bold;
     
 }
 .nav-bar-main li:after {
     content: "/";
     padding: 1rem;
-    color: white
+    color: black;
+    font-weight: bold;
 }
 .nav-bar-main li:last-of-type:after {
     content: none;
@@ -92,7 +94,7 @@ p {
 
 .left-side {
     width: 60%;
-    margin: 0 3rem 0 12rem;
+    margin: 0 4rem 0 12rem;
 }
 .quote {
     color: #2C9AB7;
@@ -111,7 +113,7 @@ p {
 
 .right-side {
     width: 35%;
-    margin: 0 12rem 0 0;
+    margin: 0 12rem 0 2rem;
 }
 .right-side img {
     width: 100%;
