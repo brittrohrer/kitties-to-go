@@ -178,3 +178,46 @@ footer a {
     content: none;
 }
 
+.profile-main {
+    display: block;
+}
+.profile-header {
+    text-align: center;
+    padding: 2rem;
+}
+.kitty-profiles-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 0;
+    
+}
+.kitty-profile-box {
+    width: 25%;
+    height: 650px;
+    list-style-type: none;
+    position: relative;
+    text-align: center;
+}
+.kitty-profile-box img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10%;
+    padding: 1rem;
+}
+.desc p {
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
+
+.desc a {
+    position:absolute;
+    text-decoration: none;
+    color:#2C9AB7;
+    bottom: 0;
+    left: 0;
+}
