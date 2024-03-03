@@ -21,7 +21,7 @@ body {
     color: white;
     text-align: left;
     vertical-align: middle;
-    margin-left: 12rem;
+    margin-left: 14rem;
     top: 10%;
     
 
@@ -43,7 +43,7 @@ body {
     top: 316px;
     width: 100%;
     background: lightgrey;
-    text-indent: 10rem;
+    text-indent: 12rem;
 
 }
 .nav-bar-main ul {
@@ -83,18 +83,19 @@ h3 {
     color:#2C9AB7;
 }
 h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
     margin-bottom: 1rem;
 }
 p {
     line-height: 180%;
+    font-size: 1.1rem;
     
 }
 
 .left-side {
-    width: 60%;
-    margin: 0 4rem 0 12rem;
+    width: 65%;
+    margin: 0 3rem 0 14rem;
 }
 .quote {
     color: #2C9AB7;
@@ -115,8 +116,8 @@ p {
 }
 
 .right-side {
-    width: 35%;
-    margin: 0 12rem 0 2rem;
+    width: 30%;
+    margin: 0 14rem 0 3rem;
 }
 .right-side img {
     width: 100%;
@@ -126,6 +127,7 @@ p {
     color: #2C9AB7;
     margin-bottom: 2rem;
     text-decoration: none;
+    font-size: 1.1rem;
 }
 
 
