@@ -82,7 +82,8 @@ main {
 h3 {
     font-size: 1.3rem;
     line-height: 180%;
-    color:#2C9AB7;
+    /*color:#2C9AB7;*/
+    color: #257F98;
 }
 h2 {
     font-size: 1.8rem;
@@ -213,8 +214,8 @@ footer a {
     margin-bottom: 5%;
 }
 .kitty-profile-box img {
-    width: 12rem;
-    height: 12rem;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border-radius: 2rem;
     padding: 2%;
