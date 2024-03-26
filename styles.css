@@ -229,4 +229,9 @@ footer a {
 .desc a {
     text-decoration: none;
     color: #257F98;
+    padding: 1rem;
+}
+
+.desc a:hover {
+    font-size: 2rem;
 }
