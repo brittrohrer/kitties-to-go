@@ -75,6 +75,7 @@ body {
 
 
 main {
+    display: flex;
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
@@ -96,7 +97,7 @@ p {
 
 .left-side {
     width: 65%;
-    margin: 0 3% 0 15%;
+    margin: 0 2% 0 15%;
 }
 .quote {
     color: #2C9AB7;
@@ -118,7 +119,7 @@ p {
 
 .right-side {
     width: 30%;
-    margin: 0 15% 0 3%;
+    margin: 0 15% 0 2%;
 }
 .right-side img {
     width: 100%;
