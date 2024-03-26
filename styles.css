@@ -22,7 +22,7 @@ body {
     color: white;
     text-align: left;
     vertical-align: middle;
-    margin-left: 15%;
+    margin-left: 12%;
     top: 10%;
     
 
@@ -44,12 +44,13 @@ body {
     top: 316px;
     width: 100%;
     background: lightgrey;
-    text-indent: 13%;
+    text-indent: 11%;
     padding: .8rem 0;
 
 }
 .nav-bar-main ul {
     list-style-type: none;
+    padding: 0;
     
 }
 .nav-bar-main li {
@@ -58,10 +59,10 @@ body {
 }
 .nav-bar-main a {
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: black;
     font-weight: bold;
-    padding: 1rem;
+    padding: 1%;
 }
 .nav-bar-main a:hover {
     text-decoration: underline black 4px;
@@ -70,7 +71,7 @@ body {
 
 .nav-bar-main li:after {
     content: "/";
-    padding: 1rem;
+    padding: .4rem;
     color: black;
     font-weight: bold;
 }
@@ -103,7 +104,7 @@ p {
 
 .left-side {
     width: 65%;
-    margin: 0 2% 0 15%;
+    margin: 0 2% 0 12%;
 }
 .quote {
     color: #2C9AB7;
@@ -125,7 +126,7 @@ p {
 
 .right-side {
     width: 30%;
-    margin: 0 15% 0 2%;
+    margin: 0 12% 0 2%;
 }
 .right-side img {
     width: 100%;
@@ -165,7 +166,7 @@ footer li {
 }
 footer li:after {
     content: "/";
-    padding: 1rem;
+    padding: .5rem;
 }
 footer li:last-of-type:after {
     content: none;
@@ -174,6 +175,11 @@ footer a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    padding: 1rem;
+}
+footer a:hover {
+    text-decoration: underline white 4px;
+    text-underline-offset: 5px;
 }
 .footer-main-text {
     display: inline-block;
