@@ -107,14 +107,14 @@ p {
     margin-bottom: 0;
 }
 .cite-quote {
-    color: #2C9AB7;
+    color: #257F98;
     padding: 0 0 2rem 0;
     font-size: 1.5rem;
     margin-top: 0;
     font-style: italic;
 }
 .paragraph-text-link {
-    color:#2C9AB7;
+    color: #257F98;
     text-decoration: none;
 }
 
@@ -127,7 +127,7 @@ p {
 }
 .right-side a {
     display: inline-block;
-    color: #2C9AB7;
+    color: #257F98;
     margin-bottom: 2rem;
     text-decoration: none;
     font-size: 1.1rem;
@@ -228,5 +228,5 @@ footer a {
 
 .desc a {
     text-decoration: none;
-    color:#2C9AB7;
+    color: #257F98;
 }
