@@ -61,8 +61,13 @@ body {
     font-size: 1.2rem;
     color: black;
     font-weight: bold;
-    
+    padding: 1rem;
 }
+.nav-bar-main a:hover {
+    text-decoration: underline black 4px;
+    text-underline-offset: 5px;
+}
+
 .nav-bar-main li:after {
     content: "/";
     padding: 1rem;
