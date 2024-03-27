@@ -89,7 +89,7 @@ h3 {
     font-size: 1.3rem;
     line-height: 180%;
     /*color:#2C9AB7;*/
-    color: #257F98;
+    color: #0076D1;
 }
 h2 {
     font-size: 1.8rem;
@@ -107,20 +107,20 @@ p {
     margin: 0 2% 0 12%;
 }
 .quote {
-    color: #257F98;
+    color: #0076D1;
     padding: 2rem 0 0 0;
     font-size: 1.5rem;
     margin-bottom: 0;
 }
 .cite-quote {
-    color: #257F98;
+    color: #0076D1;
     padding: 0 0 2rem 0;
     font-size: 1.5rem;
     margin-top: 0;
     font-style: italic;
 }
 .paragraph-text-link {
-    color: #257F98;
+    color: #0076D1;
     text-decoration: none;
 }
 
@@ -133,7 +133,7 @@ p {
 }
 .right-side a {
     display: inline-block;
-    color: #257F98;
+    color: #0076D1;
     margin-bottom: 2rem;
     text-decoration: none;
     font-size: 1.1rem;
@@ -239,7 +239,7 @@ footer a:hover {
 
 .desc a {
     text-decoration: none;
-    color: #257F98;
+    color: #0076D1;
     padding: 1rem;
 }
 
