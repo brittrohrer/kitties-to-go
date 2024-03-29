@@ -250,3 +250,9 @@ footer a:hover {
 .desc a:hover {
     outline: 2px solid #0076D1;
 }
+
+a:focus {
+    outline: 5px solid #0076D1;
+    background-color: #3A3A3A;
+    color: white;
+}
