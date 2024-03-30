@@ -256,3 +256,19 @@ a:focus {
     background-color: white;
     color: #3A3A3A;
 }
+.skip-link {
+    position: absolute;
+    left: -10000px;
+    z-index: 999;
+    padding: 1rem;
+    background: #0076D1;
+    color: black;
+    opacity: 0;
+    text-decoration: none;
+}
+.skip-link:focus {
+    left: 50%;
+    top: 8px;
+    transform: translate(-50%);
+    opacity: 1;
+}
