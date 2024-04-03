@@ -7,13 +7,19 @@ body {
     margin: 0;
     padding-bottom: 35rem;
     position: relative;
-    background: linear-gradient(135deg, #43B7E1, #0076D1);
+    background: linear-gradient(135deg, #01CC4C, #0B01A4);
     background-image: url(https://images.pexels.com/photos/7726105/pexels-photo-7726105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
     background-position: left center;
     background-size: 100%;
     background-repeat: repeat-y;
     background-attachment: fixed;
 } 
+
+@media screen and (width <= 600px) {
+    body {
+        background: linear-gradient(135deg, #01CC4C, #0B01A4);
+}
+}
 
 .banner-img {
     background-image: url(https://github.com/UWFront-End-Cert/starters/blob/master/lesson04-mock2-banner-image.jpg?raw=true);
@@ -229,13 +235,12 @@ footer a:hover {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 5%;
+    gap: 1%;
     padding: 0;
     margin: 2%; 
 }
 .kitty-profile-box {
-    width: 25%;
-    height: 30%;
+    width: 30%;
     list-style-type: none;
     position: relative;
     text-align: center;
@@ -245,7 +250,7 @@ footer a:hover {
 }
 .kitty-profile-box img {
     width: 100%;
-    height: 20%;
+    aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 2rem;
     padding: 2%;
@@ -254,6 +259,7 @@ footer a:hover {
     color: black;
     text-align: left;
     margin-bottom: 1rem;
+    height: 100%;
 }
 
 .desc a {
