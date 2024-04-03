@@ -7,14 +7,14 @@ body {
     margin: 0;
     padding-bottom: 35rem;
     position: relative;
-    background: linear-gradient(135deg, #01CC4C, #0B01A4);
+    background: linear-gradient(135deg, #01CC4C, #0B01A4); /*for backup when pic doesn't load*/
     background-image: url(https://images.pexels.com/photos/7726105/pexels-photo-7726105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
     background-position: left center;
     background-size: 100%;
     background-attachment: fixed;
 } 
 
-@media screen and (width <= 800px) {
+@media screen and (orientation: portrait) { /*when viewing in portrait mode*/
     body {
         background: linear-gradient(135deg, #01CC4C, #0B01A4);
 }
