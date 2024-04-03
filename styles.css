@@ -14,7 +14,7 @@ body {
     background-attachment: fixed;
 } 
 
-@media screen and (max-width <= 600px) {
+@media screen and (max-width <= 800px) {
     body {
         background: linear-gradient(135deg, #01CC4C, #0B01A4);
 }
