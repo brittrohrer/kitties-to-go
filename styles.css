@@ -7,11 +7,11 @@ body {
     margin: 0;
     padding-bottom: 35rem;
     position: relative;
-    background: linear-gradient(to bottom, #0076d1 0%, lightgrey 100%);
-    background-image: url(https://live.staticflickr.com/65535/51820311043_76762ec7f4_b.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: linear-gradient(135deg, #43B7E1, #0076D1);
+    background-image: url(https://images.pexels.com/photos/7726105/pexels-photo-7726105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-position: left center;
+    background-size: 100%;
+    background-repeat: repeat-y;
     background-attachment: fixed;
 } 
 
@@ -42,6 +42,7 @@ body {
     font-size: 2.5rem;
     line-height: normal;
     font-style: italic;
+    color: #ffffff;
 }
 
 
@@ -94,7 +95,7 @@ main {
 h3 {
     font-size: 1.3rem;
     line-height: 180%;
-    color: #0076D1;
+    color: #0000ff;
 }
 h2 {
     font-size: 1.8rem;
@@ -104,31 +105,32 @@ h2 {
 p {
     line-height: 180%;
     font-size: 1.1rem;
-    
+    color: black;
 }
 
 .left-side {
     width: 65%;
     margin: 0 2% 0 12%;
-    background-color: #ffffff;
     padding: 1rem;
+    background-color: #ffffffbf;
 }
 .quote {
-    color: #0076D1;
+    color: #0000ff;
     padding: 2rem 0 0 0;
     font-size: 1.5rem;
     margin-bottom: 0;
 }
 .cite-quote {
-    color: #0076D1;
+    color: #0000ff;
     padding: 0 0 2rem 0;
     font-size: 1.5rem;
     margin-top: 0;
     font-style: italic;
 }
 .paragraph-text-link {
-    color: #0076D1;
+    color: #0000ff;
     text-decoration: none;
+    font-weight: bold;
 }
 .paragraph-text-link:hover {
     text-decoration: underline 3px;
@@ -136,21 +138,21 @@ p {
 .right-side {
     width: 30%;
     margin: 0 12% 0 2%;
-    background-color: #ffffff;
     padding: 1rem;
+    background-color: #ffffffbf;
 }
 .right-side img {
     width: 100%;
 }
 .right-side a {
     display: inline-block;
-    color: #0076D1;
+    color: #0000ff;
     margin-bottom: 2rem;
     text-decoration: none;
     font-size: 1.1rem;
 }
 .right-side a:hover {
-    outline: 2px solid #0076D1;
+    outline: 2px solid #0000ff;
 }
 
 
@@ -199,10 +201,12 @@ footer a:hover {
     line-height: 200%;
     width: 30%;
     padding: 1rem 0;
+    color:#ffffff
 }
 .location {
     display: inline;
     padding: 1rem 0;
+    color:#ffffff;
 }
 .location:after {
     content: "|";
@@ -218,6 +222,7 @@ footer a:hover {
 .profile-header {
     text-align: center;
     padding: 2rem;
+    background-color: #ffffffbf;
 }
 .kitty-profiles-container {
     display: flex;
@@ -236,7 +241,7 @@ footer a:hover {
     text-align: center;
     margin-bottom: 5%;
     padding: 1rem;
-    background-color: #ffffff;
+    background-color: #ffffffbf;
 }
 .kitty-profile-box img {
     width: 100%;
@@ -253,12 +258,12 @@ footer a:hover {
 
 .desc a {
     text-decoration: none;
-    color: #0076D1;
+    color: #0000ff;
     padding: 1rem;
 }
 
 .desc a:hover {
-    outline: 2px solid #0076D1;
+    outline: 2px solid #0000ff;
 }
 
 a:focus {
@@ -271,7 +276,7 @@ a:focus {
     left: -10000px;
     z-index: 999;
     padding: 1rem;
-    background: #0076D1;
+    background: #0000ff;
     color: black;
     opacity: 0;
     text-decoration: none;
