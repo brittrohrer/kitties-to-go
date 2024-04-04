@@ -233,19 +233,19 @@ footer a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     gap: 1%;
     padding: 0;
-    margin: 2%; 
+    margin: 2%;
 }
 .kitty-profile-box {
     width: 30%;
     list-style-type: none;
-    position: relative;
     text-align: center;
     margin-bottom: 5%;
     padding: 1rem;
     background-color: #ffffffbf;
+    display: flex;
+    flex-direction: column;
 }
 .kitty-profile-box img {
     width: 100%;
@@ -254,20 +254,25 @@ footer a:hover {
     border-radius: 2rem;
     padding: 2%;
 }
-.desc p {
+.kitty-name {
+    margin-bottom: 1rem;
+}
+.kitty-desc {
     color: black;
     text-align: left;
     margin-bottom: 1rem;
-    height: 100%;
+    flex: 1 1 100%;
 }
 
-.desc a {
+.kitty-link {
+    display: block;
     text-decoration: none;
     color: #0000ff;
     padding: 1rem;
+    margin-top: 1rem;
 }
 
-.desc a:hover {
+.kittty-link:hover {
     outline: 2px solid #0000ff;
 }
 
