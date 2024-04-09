@@ -297,7 +297,7 @@ a:focus {
     transform: translate(-50%);
     opacity: 1;
 }
-
+/* viewing mobile in portrait */
 @media only screen and (orientation: portrait) and (max-device-width: 600px) {
     .right-side {
         display: none;
@@ -307,7 +307,8 @@ a:focus {
         margin: 0 12%;
     }
 }
-@media only screen and (orientation: landscape) and (max-device-width : 768px) {
+/* viewing mobile in landscape */
+@media only screen and (orientation: landscape) and (max-device-width : 926px) {
     .right-side {
         display: none;
     }
