@@ -14,7 +14,7 @@ body {
     background-attachment: fixed;
 } 
 
-@media screen and (orientation: portrait) { /*when viewing in portrait mode*/
+@media screen and (orientation: portrait) { /*gradient when viewing in portrait mode*/
     body {
         background: linear-gradient(135deg, #01CC4C, #0B01A4);
 }
@@ -296,4 +296,10 @@ a:focus {
     top: 8px;
     transform: translate(-50%);
     opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+    .right-side {
+        display: none;
+    }
 }
