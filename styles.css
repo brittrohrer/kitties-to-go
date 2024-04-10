@@ -298,7 +298,7 @@ a:focus {
     opacity: 1;
 }
 /* viewing mobile in portrait */
-@media only screen and (orientation: portrait) and (max-device-width: 600px) {
+@media only screen and (orientation: portrait) and (max-device-width: 767px) {
     .right-side {
         display: none;
     }
@@ -308,7 +308,7 @@ a:focus {
     }
 }
 /* viewing mobile in landscape */
-@media only screen and (orientation: landscape) and (max-device-width : 926px) {
+@media only screen and (orientation: landscape) and (max-device-width: 1023px) {
     .right-side {
         display: none;
     }
